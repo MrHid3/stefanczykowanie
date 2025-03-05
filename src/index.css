@@ -1,0 +1,36 @@
+button {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: pink;
+    color: black;
+}
+
+.nice{
+    background-color: whitesmoke;
+    color: #333333;
+    min-width: 150px;
+    min-height: 250px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin: 20px;
+    float: left;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 200000;
+    background-color: gray;
+    padding: 10px;
+}
